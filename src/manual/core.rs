@@ -1,6 +1,6 @@
-pub use affine3::*;
+// pub use affine3::*;
 pub use data_type::*;
-pub use directx::*;
+// pub use directx::*;
 pub use inplace::*;
 pub use input_output_array::*;
 pub use mat::*;
@@ -18,10 +18,10 @@ pub use vec::*;
 pub use vector::*;
 pub use CV_MAKETYPE as CV_MAKE_TYPE;
 
-mod affine3;
+// mod affine3;
 mod data_type;
-mod directx;
-mod gpumat;
+// mod directx;
+// mod gpumat;
 mod inplace;
 mod input_output_array;
 mod mat;
