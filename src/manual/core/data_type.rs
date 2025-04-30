@@ -121,8 +121,8 @@ mchan_fun!(CV_64FC, core::CV_64F);
 mod half_builtin {
 	use crate::core;
 
-	#[cfg(ocvrs_has_inherent_feature_hfloat)]
-	data_type!(core::hfloat, core::CV_16F, 1);
+	// #[cfg(ocvrs_has_inherent_feature_hfloat)]
+	// data_type!(core::hfloat, core::CV_16F, 1);
 	mchan_fun!(CV_16FC, core::CV_16F);
 }
 #[cfg(not(ocvrs_opencv_branch_34))]
